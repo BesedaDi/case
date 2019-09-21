@@ -5,27 +5,52 @@
 import turtle
 
 
-def drawin1 ():
-# TODO: (D) Paint a написать какие конкретно рисунки.
+def red_triangle1():
+#TODO: (D) Paint a red_triangle1.
     pass
-def drawin2 ():
-# TODO: (D) Paint a написать какие конкретно рисунки.
+def red_triangle2():
+#TODO: (D) Paint a red_triangle2.
     pass
-def drawin3 ():
-# TODO: (D) Paint a написать какие конкретно рисунки.
+def yellow_triangle1():
+#TODO: (D) Paint a yellow_triangle1.
     pass
-def drawin4():
-#TODO: (A) Paint a какие рисунки.
+def yellow_triangle2():
+#TODO: (D) Paint a yellow_triangle2.
     pass
-def drawin5():
-#TODO: (A) Paint a какие рисунки.
+def parallelogram1():
+# TODO: (E) Paint a parallelogram1.
     pass
-def drawin6():
-#TODO: (E) Paint a какие рисунки.
+def parallelogram2():
+# TODO: (E) Paint a parallelogram2.
     pass
-def drawin7 ():
-#TODO: (E) Paint a какие рисунки.
+def rhombus1():
+# TODO: (E) Paint a rhombus1.
     pass
+def rhombus2():
+# TODO: (E) Paint a rhombus2.
+    pass
+def square():
+#TODO: (E) Paint  a square.
+    pass
+def blue_triangle1():
+#TODO: (A) Paint a  triangle1.
+    pass
+def blue_triangle2():
+#TODO: (A) Paint a  triangle2.
+    pass
+def purple_triangle1():
+#TODO: (A) Paint a  purple_triangle1.
+    pass
+def purple_triangle2():
+#TODO: (A) Paint a  purple_triangle2.
+    pass
+def pink_triangle1():
+#TODO: (A) Paint a  pink_triangle1.
+    pass
+def pink_triangle2():
+#TODO: (A) Paint a  pink_triangle2.
+    pass
+
 def square (x,y,a):
     '''
     Function,
@@ -35,12 +60,19 @@ def square (x,y,a):
     :return:
     '''
 def main():
-    drawin1()
-    drawin2()
-    drawin3()
-    drawin4()
-    drawin5()
-    drawin6()
-    drawin7()
-
+    red_triangle1()
+    red_triangle2()
+    yellow_triangle1()
+    yellow_triangle2()
+    parallelogram1()
+    parallelogram2()
+    rhombus1()
+    rhombus2()
+    square()
+    blue_triangle1()
+    blue_triangle2()
+    purple_triangle1()
+    purple_triangle2()
+    pink_triangle1()
+    pink_triangle2()
     pass
