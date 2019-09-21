@@ -5,17 +5,31 @@
 import turtle
 
 
-def triangle(x, y, a, b, color):
-#TODO: (D) Paint a triangle.
- def triangle(x, y, a):
-    '''
+
+
+ def triangle(x, y, a, b, color):
+     # TODO: (D) Paint a triangle.
+
+     '''
     Function, drawing triangle.
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
-    :param a: side length of a square
+    :param a: side length of a triangle
+    :param b: side length of the diagonal of the triangle
     :return: None
     '''
 
+     turtle.up()
+     turtle.setposition(x, y)
+     turtle.down()
+     turtle.color(color)
+     turtle.begin_fill()
+     turtle.forward(a)
+     turtle.right(90)
+     turtle.forward(a)
+     turtle.right(135)
+     turtle.forward(b)
+     turtle.end_fill()
  pass
 
 def parallelogram(x, y, a1, b1, color):
@@ -27,28 +41,9 @@ def square(x,y, a3):
     pass
 
 
-def square (x,y,a):
-    '''
-    Function,
-    :param x:
-    :param y:
-    :param a:
-    :return:
-    '''
+
 def main():
-    red_triangle1()
-    red_triangle2()
-    yellow_triangle1()
-    yellow_triangle2()
-    parallelogram1()
-    parallelogram2()
-    rhombus1()
-    rhombus2()
-    square()
-    blue_triangle1()
-    blue_triangle2()
-    purple_triangle1()
-    purple_triangle2()
-    pink_triangle1()
-    pink_triangle2()
+    triangle(-200, 200, 180, 260, 'red')
+    turtle.done()
+
     pass
