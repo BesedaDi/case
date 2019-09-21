@@ -5,51 +5,27 @@
 import turtle
 
 
-def red_triangle1():
-#TODO: (D) Paint a red_triangle1.
+def triangle(x, y, a, b, color):
+#TODO: (D) Paint a triangle.
+ def triangle(x, y, a):
+    '''
+    Function, drawing triangle.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param a: side length of a square
+    :return: None
+    '''
+
+ pass
+
+def parallelogram(x, y, a1, b1, color):
+# TODO: (E) Paint a parallelogram.
     pass
-def red_triangle2():
-#TODO: (D) Paint a red_triangle2.
+
+def square(x,y, a3):
+#TODO: (A) Paint  a square.
     pass
-def yellow_triangle1():
-#TODO: (D) Paint a yellow_triangle1.
-    pass
-def yellow_triangle2():
-#TODO: (D) Paint a yellow_triangle2.
-    pass
-def parallelogram1():
-# TODO: (E) Paint a parallelogram1.
-    pass
-def parallelogram2():
-# TODO: (E) Paint a parallelogram2.
-    pass
-def rhombus1():
-# TODO: (E) Paint a rhombus1.
-    pass
-def rhombus2():
-# TODO: (E) Paint a rhombus2.
-    pass
-def square():
-#TODO: (E) Paint  a square.
-    pass
-def blue_triangle1():
-#TODO: (A) Paint a  triangle1.
-    pass
-def blue_triangle2():
-#TODO: (A) Paint a  triangle2.
-    pass
-def purple_triangle1():
-#TODO: (A) Paint a  purple_triangle1.
-    pass
-def purple_triangle2():
-#TODO: (A) Paint a  purple_triangle2.
-    pass
-def pink_triangle1():
-#TODO: (A) Paint a  pink_triangle1.
-    pass
-def pink_triangle2():
-#TODO: (A) Paint a  pink_triangle2.
-    pass
+
 
 def square (x,y,a):
     '''
