@@ -21,21 +21,6 @@ def triangle(x, y, a, b, color):
 
 pass
 
-def parallel1(x, y, a1, b1, color):
-
-    turtle.up()
-    turtle.setposition(x, y)
-    turtle.down()
-    turtle.color(color)
-    turtle.begin_fill()
-    turtle.forward(a1)
-    turtle.right(60)
-    turtle.forward(b1)
-    turtle.right(120)
-    turtle.forward(a1)
-    turtle.end_fill()
-
-pass
 
 def square(x, y, a, color):
     '''
@@ -112,6 +97,7 @@ def main():
     triangle(-360, 288, 40, 50, 'gold')
     turtle.right(90)
     parallel(-250, 270, 55, 'green')
+    
 
     turtle.done()
 
