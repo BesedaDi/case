@@ -4,17 +4,43 @@
 #               Kuzmin E. (%)
 import turtle
 
- def triangle(x, y, a, b, color):
-     # TODO: (D) Paint a triangle.
+
+def triangle(x, y, a, b, color):
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.color(color)
+    turtle.begin_fill()
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(135)
+    turtle.forward(b)
+    turtle.end_fill()
+
 pass
 
 def parallelogram(x, y, a1, b1, color):
      # TODO: (E) Paint a parallelogram.
 pass
 
-def square(x,y, a3):
-     # TODO: (A) Paint  a square.
-pass
+def square(x, y, a, color):
+        turtle.up()
+        turtle.setposition(x, y)
+        turtle.down()
+        turtle.color(color)
+        turtle.begin_fill()
+        turtle.forward(a)
+        turtle.right(90)
+        turtle.forward(a)
+        turtle.right(90)
+        turtle.forward(a)
+        turtle.right(90)
+        turtle.forward(a)
+        turtle.right(90)
+        turtle.end_fill()
+
+    pass
 
 def figure1():
      # TODO: (D) Paint a figure1.
