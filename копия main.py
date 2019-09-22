@@ -35,17 +35,16 @@ import turtle
 def parallelogram(x, y, a1, b1, color):
 # TODO: (E) Paint a parallelogram.
 turtle.up()
-turtle.setposition(x, y)
-turtle.down()
-turtle.color(color)
-turtle.begin_fill()
-turtle.forward(a1)
-turtle.right(60)
-turtle.forward(b1)
-turtle.right(120)
-turtle.forward(a1)
-turtle.end_fill()
-
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.color(color)
+    turtle.begin_fill()
+    turtle.forward(a1)
+    turtle.right(60)
+    turtle.forward(b1)
+    turtle.right(120)
+    turtle.forward(a1)
+    turtle.end_fill()
     pass
 
 def square(x,y, a3, color):

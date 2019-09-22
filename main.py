@@ -9,6 +9,7 @@ import turtle
 
  def triangle(x, y, a, b, color):
      # TODO: (D) Paint a triangle.
+
 pass
 
 def parallelogram(x, y, a1, b1, color):
