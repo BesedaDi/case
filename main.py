@@ -4,9 +4,6 @@
 #               Kuzmin E. (%)
 import turtle
 
-
-
-
  def triangle(x, y, a, b, color):
      # TODO: (D) Paint a triangle.
 pass
