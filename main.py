@@ -13,11 +13,31 @@ pass
 
 def parallelogram(x, y, a1, b1, color):
      # TODO: (E) Paint a parallelogram.
+     turtle.up()
+     turtle.setposition(x, y)
+     turtle.down()
+     turtle.color(color)
+     turtle.begin_fill()
+     turtle.forward(a1)
+     turtle.right(60)
+     turtle.forward(b1)
+     turtle.right(120)
+     turtle.forward(a1)
+     turtle.end_fill()
 pass
 
 def square(x,y, a3):
      # TODO: (A) Paint  a square.
+
 pass
+
+
+def main():
+    triangle(-200, 200, 180, 260, 'red')
+    turtle.done()
+
+    pass
+
 
 def figure1():
      # TODO: (D) Paint a figure1.
@@ -56,7 +76,6 @@ def figure9():
 pass
 
 def main():
-    triangle(-200, 200, 180, 260, 'red')
+    figure1()
     turtle.done()
-
-    pass
+pass
