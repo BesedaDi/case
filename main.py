@@ -5,10 +5,19 @@
 import turtle
 
 
+def triangle(x, y, a, b, color):
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.color(color)
+    turtle.begin_fill()
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(135)
+    turtle.forward(b)
+    turtle.end_fill()
 
-
- def triangle(x, y, a, b, color):
-     # TODO: (D) Paint a triangle.
 
 pass
 
@@ -27,8 +36,21 @@ def parallelogram(x, y, a1, b1, color):
      turtle.end_fill()
 pass
 
-def square(x,y, a3):
-     # TODO: (A) Paint  a square.
+def square(x, y, a, color):
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.color(color)
+    turtle.begin_fill()
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.end_fill()
 pass
 
 def figure1():
