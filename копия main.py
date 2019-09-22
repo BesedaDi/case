@@ -123,19 +123,22 @@ def main():
 
  pass
 def main():
-    triangle(0, -80, 30, 'blue')
-    turtle.right(255)
-    parallelogram(40, -80, 20, 60, 'green')
-    turtle.left(90)
-    triangle(42, -80, 90, 'red')
-    turtle.right(135)
-    triangle(40, -205, 90, 'yellow')
+    turtle.left(45)
+    triangle(0, -80, 30, 0, 'blue')
+    turtle.right(120)
+    parallelogram(50, -80, 20, 60, 'green')
+    turtle.right(285)
+    triangle(47, -82, 90, 0, 'red')
+    turtle.left(45)
+    triangle(45, -210, 90, 0, 'yellow')
+    turtle.right(225)
+    triangle(-50, -175, 40, 0, 'purple')
+    turtle.right(-45)
+    triangle(-25, -145, 40, 0, 'blue')
     turtle.right(45)
-    triangle(-55, -170, 40, 'purple')
-    turtle.right(135)
-    triangle(-30, -140, 40, 'blue')
+    square(-95, -100, 40, 'orange')
 
-    square(-100, -150, 40, 'orange')
+
 
     turtle.done()
 
