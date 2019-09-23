@@ -129,8 +129,6 @@ def main():
     turtle.left(45)
     square(65, -155, 30, 'orange')
 
-    turtle.right(90)
-    triangle(-80, -40, 90, 50, 'red')
 
 
 
