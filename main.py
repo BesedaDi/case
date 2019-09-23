@@ -114,6 +114,25 @@ def main():
     turtle.left(60)
     parallel(492, -295, 40, 'green')
 
+    turtle.right(225)
+    triangle(175, -100, 50, 50, 'pink')
+    turtle.right(120)
+    parallel(250, -100, 30, 'green')
+    turtle.right(225)
+    triangle(250, -105, 90, 50, 'red')
+    turtle.left(45)
+    triangle(245, -230, 90, 50, 'yellow')
+    turtle.left(135)
+    triangle(140, -210, 55, 50, 'blue')
+    turtle.left(45)
+    triangle(175, -170, 55, 50, 'pink')
+    turtle.left(45)
+    square(65, -155, 30, 'orange')
+
+    turtle.right(90)
+    triangle(-80, -40, 90, 50, 'red')
+
+
 
     turtle.done()
 
