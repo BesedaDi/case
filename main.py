@@ -96,7 +96,7 @@ def main():
     turtle.left(180)
     triangle(-360, 288, 40, 50, 'gold')
     turtle.right(90)
-    parallel(-250, 270, 55, 'green')
+    parallel(-250, 270, 55, 'white')
 
     turtle.right(75)
     triangle(400, -100, 40, 50, 'pink')
@@ -112,7 +112,7 @@ def main():
     turtle.left(180)
     triangle(370, -260, 40, 50, 'pink')
     turtle.left(60)
-    parallel(492, -295, 40, 'green')
+    parallel(492, -295, 40, 'white')
 
     turtle.right(225)
     triangle(175, -100, 50, 50, 'pink')
@@ -131,9 +131,12 @@ def main():
 
     turtle.right(90)
     triangle(-80, -40, 90, 50, 'red')
-
-
-
+    turtle.right(45)
+    square(-44, -136, 43, 'orange')
+    turtle.right(0)
+    triangle(-79, -170, 45, 50, 'purple')
+    turtle.right(315)
+    triangle(-18, -173, 70, 90, 'blue')
     turtle.done()
 
 if __name__ == '__main__':
